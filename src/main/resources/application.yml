@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: pythonController
+  servlet:
+    multipart:
+      max-file-size: 1GB
+      max-request-size: 1GB
+
+
+server:
+  port: '8080'
+
+springdoc:
+  api-docs:
+    path: /swagger
+    enabled: true
+  swagger-ui:
+    path: /swagger-ui
+    enabled: true
+    oauth:
+      client-id: ${azure.clientId}

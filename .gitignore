@@ -1,0 +1,44 @@
+# Maven
+/target/
+/pom.xml.tag
+/pom.xml.releaseBackup
+/pom.xml.versionsBackup
+/pom.xml.next
+/mvnw
+/mvnw.cmd
+/.mvn/
+
+# Gradle
+/build/
+/.gradle/
+/gradle-app.setting
+
+# Spring Boot specific
+spring-boot-*.log
+
+# Eclipse specific
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+/out/
+
+# VS Code
+.vscode/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+
+/myenv/
